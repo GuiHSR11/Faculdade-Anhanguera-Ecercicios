@@ -44,5 +44,5 @@ int main() {
 
     printf("Resultado: %.2f\n", resultado);
 
-    return 0; // Saída do programa sem erro
+    return 0; 
 }
