@@ -35,11 +35,11 @@ int main() {
             break;
         default:
             printf("Código de produto inválido!\n");
-            return 1; // Saída do programa com erro
+            return 1;
     }
 
     float total = preco * quantidade;
     printf("Total a pagar: R$ %.2f\n", total);
 
-    return 0; // Saída do programa sem erro
+    return 0; 
 }
