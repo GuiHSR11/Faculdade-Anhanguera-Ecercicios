@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int idade;
+    int contador = 0; 
+    int lopping = 0; 
+    printf("Digite a idade de 5 pessoas:\n");
+    
+    
+    while (lopping < 5) {
+        printf("Pessoa %d: ", lopping + 1);
+        scanf("%d", &idade);
+        
+        if (idade > 18) {
+            contador++; 
+        }
+        
+        lopping++; 
+    
+    printf("Total de pessoas maiores que 18 anos: %d\n", contador);
+    
+    return 0;
+}
