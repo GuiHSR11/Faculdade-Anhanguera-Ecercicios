@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    
+    char *meses[] = {"janeiro", "fevereiro", "março", "abril", "maio", "junho",
+                     "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"};
+
+   
+    int i = 0;
+
+    // Loop while para imprimir o número e o nome dos meses
+    while (i < 12) {
+        printf("%d - %s\n", i + 1, meses[i]); // i + 1 porque os índices começam em 0, mas os números dos meses começam em 1
+        i++; 
+    }
+
+    return 0;
+}
